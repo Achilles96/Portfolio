@@ -1,1 +1,1 @@
-this is the branch where all the magic happens
+this is the branch where all the magic happens.
