@@ -1,12 +1,37 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(75, 75, 104);
+    color: aliceblue;
 }
 
 .home-logo{
    display: flex; 
-    width: 10rem;
-    height: 10rem;
-    margin-top: 2rem;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
     margin-left: 1rem;
+    color: inherit;
+}
+
+
+.main-nav ul{
+display: flex;
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.main-nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;  
+}
+.main-nav a:hover{
+    color: rgb(206, 36, 36);
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
