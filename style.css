@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,13 +9,9 @@ body {
     color: aliceblue;
 }
 
-.home-logo{
-   display: flex; 
-    width: 2rem;
-    height: 2rem;
-    margin-top: 1rem;
+.fa-house{
+    color: rgb(241, 241, 241);
     margin-left: 1rem;
-    color: inherit;
 }
 
 
@@ -26,12 +26,31 @@ list-style: none;
     color: inherit;
     text-decoration: none;
     padding: 1rem;  
+    text-transform: uppercase;
 }
 .main-nav a:hover{
     color: rgb(206, 36, 36);
 }
 .main-header{
     display: flex;
+    height: 5rem;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: rgb(143, 106, 124);
+}
+
+#aboutme{
+    height: 700px;
+    background: purple;
+}
+#projects{
+    height: 700px;
+    background: rgb(0, 128, 68);
+}
+#contact{
+    height: 700px;
+    background: rgb(13, 168, 179);
 }
