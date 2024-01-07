@@ -43,18 +43,33 @@ list-style: none;
 }
 
 #aboutme{
-    padding: 30px;
-    height: 700px;
+    
+    padding: 10px;
+    height: auto;
     background: rgb(165, 26, 26);
     font-family: 'Open Sans', sans-serif;
+
     /* box-shadow: 0 8px 8px -4px black; */
 }
 .abouttitle{
-    text-align: center;
+    font-size: 50px;
     text-decoration-line: underline; 
 }
 .mydream{
-    
+
+    font-size: 22px;
+}
+img{
+    padding: 5px;
+    margin-top: 100px;
+    margin-right: 10px;
+    max-width: 450px;
+    float: left;
+}
+.about-text::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #projects{
