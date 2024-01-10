@@ -33,7 +33,7 @@ list-style: none;
 }
 .main-header{
     display: flex;
-    height: 3rem;
+    height: 5rem;
     justify-content: space-between;
     align-items: center;
     position: sticky;
@@ -42,14 +42,31 @@ list-style: none;
     background-color: rgb(143, 106, 124);
 }
 
+/* ____________________Home____________________________________________________________ */
+#home{
+    height: 700px;
+}
+   
+
+.parallax {
+    min-height: auto;
+    background: url(space.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hometitle{
+margin: 0;
+}
+
+/* _____________________________About me__________________________________________ */
+
 #aboutme{
-    
     padding: 10px;
     height: auto;
     background: rgb(165, 26, 26);
-    font-family: 'Open Sans', sans-serif;
-
-    /* box-shadow: 0 8px 8px -4px black; */
+    font-family: 'Open Sans', sans-serif; /* box-shadow: 0 8px 8px -4px black; */
 }
 .abouttitle{
     font-size: 50px;
@@ -79,8 +96,4 @@ img{
 #contact{
     height: 700px;
     background: rgb(13, 168, 179);
-}
-#home{
-    height: 700px;
-    background: none
 }
