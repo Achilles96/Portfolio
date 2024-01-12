@@ -5,7 +5,9 @@ html{
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(75, 75, 104);
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
     color: aliceblue;
 }
 
@@ -33,13 +35,13 @@ list-style: none;
 }
 .main-header{
     display: flex;
-    height: 5rem;
+    height: 4rem;
     justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
     overflow: hidden;
-    background-color: rgb(143, 106, 124);
+    background-color: rgb(8, 5, 7);
 }
 
 /* ____________________Home____________________________________________________________ */
@@ -57,24 +59,36 @@ list-style: none;
     background-size: cover;
 }
 .hometitle{
+position: relative;
 margin: 0;
+height: auto;
+text-align: center;
+text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.925),
+5px 5px 70px rgba(0, 0, 0, 0.61);
+}
+
+.myname{
+    color: rgb(129, 202, 224);
+   
 }
 
 /* _____________________________About me__________________________________________ */
 
 #aboutme{
-    padding: 10px;
+    padding: 30px;
     height: auto;
-    background: rgb(165, 26, 26);
-    font-family: 'Open Sans', sans-serif; /* box-shadow: 0 8px 8px -4px black; */
+    background: rgb(245, 245, 245);
+    font-family: 'Rubik', sans-serif;
 }
 .abouttitle{
     font-size: 50px;
-    text-decoration-line: underline; 
+    color: black;
+    font-family: 
 }
 .mydream{
 
     font-size: 22px;
+    color: black;
 }
 img{
     padding: 5px;
@@ -83,11 +97,7 @@ img{
     max-width: 450px;
     float: left;
 }
-.about-text::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 
 #projects{
     height: 700px;
