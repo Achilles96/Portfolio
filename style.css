@@ -10,17 +10,22 @@ body {
     font-family: 'Rubik', sans-serif;
     color: aliceblue;
 }
-
+/* ____________________________home button____________________________________ */
 .fa-house{
     color: rgb(241, 241, 241);
     margin-left: 1rem;
 }
+.fa-house:hover{
+    transition: color 0.3s ease-in-out;
+    color: rgb(206, 36, 36);
+    font-size: 25px;
+}
 
-
+/* _________________________MainNav_____________________________________ */
 .main-nav ul{
 display: flex;
 margin: 0;
-padding: 0;
+padding: 10px;
 list-style: none;
 }
 
@@ -31,7 +36,9 @@ list-style: none;
     text-transform: uppercase;
 }
 .main-nav a:hover{
+    transition: color 0.3s ease-in-out;
     color: rgb(206, 36, 36);
+    font-size: 18px;
 }
 .main-header{
     display: flex;
@@ -59,15 +66,20 @@ list-style: none;
     background-size: cover;
 }
 .hometitle{
-position: relative;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
 margin: 0;
-height: auto;
-text-align: center;
-text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.925),
-5px 5px 70px rgba(0, 0, 0, 0.61);
+text-shadow: beige;
+font-size: 4rem;
+    
 }
 
 .myname{
+    margin-top: 10rem;
+    font-size: 2rem;
     color: rgb(129, 202, 224);
    
 }
@@ -86,24 +98,20 @@ text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.925),
     font-family: 
 }
 .mydream{
-
-    font-size: 22px;
+    line-height: 60px;
+    margin-top: 5px;
+    padding: 20px;
+    font-size: 40px;
     color: black;
 }
-img{
-    padding: 5px;
-    margin-top: 100px;
-    margin-right: 10px;
-    max-width: 450px;
-    float: left;
-}
+
 
 
 #projects{
     height: 700px;
-    background: rgb(0, 128, 68);
+    background: rgb(245, 245, 245);
 }
 #contact{
     height: 700px;
-    background: rgb(13, 168, 179);
+    background: rgb(245, 245, 245);
 }
