@@ -72,7 +72,6 @@ flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 margin: 0;
-text-shadow: beige;
 font-size: 2rem;
     
 }
@@ -94,6 +93,7 @@ font-size: 2rem;
     font-family: 'Rubik', sans-serif;
 }
 #content{
+    
     display: flex;
     justify-content: space-between;
     align-items: flex-start; /* Align items at the start of the cross axis (top) */
@@ -101,27 +101,63 @@ font-size: 2rem;
 }
 
 #text{
+   
    flex: 1;
-   max-width: 60%;
+   max-width: 30%;
   
 }
-.logo{
-    max-width: 200px;
-    margin-top: 20px;
+#logo{
+    display: flex;
+    align-items: center; /* Center the logos vertically */
+    justify-content: center; /* Center the logos horizontally */
+    max-width: 500px;
+    margin-top:23rem;
+   background-color: rgb(221, 219, 219);
+    
+}
+#logo i {
+    font-size: 36px; /* Set the size of the logos */
+    margin: 10px; /* Add spacing around each logo if needed */
 }
 .abouttitle{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px;
-    color: rgb(32, 17, 121);
+    font-size: 20px;
+    font-weight: 150;
+    margin-bottom: 0%;
+    color: rgb(0, 0, 0);
     font-family: 'Rubik', sans-serif; 
+}
+
+.abouttitle::before,
+.abouttitle::after {
+    content: "";
+    display: inline-block; /*make the pseudo-element an inline block, allowing us to set its width and height. */
+
+    height: 2px; /* Set the height of the line */
+    width: 50px; /* Set the width of the line */
+    background-color: rgb(0, 0, 0); /* Set the color of the line */
+    margin: 0 10px; /* Adjust the spacing between the line and text */
+}
+
+
+
+
+.subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 0%;
+    color: rgb(0, 0, 0);
 }
 .mydream{
     line-height: 1.6; /* Adjust the line height for better readability */
     margin-top: 20px; /* Add some top margin for spacing */
     padding: 30px; /* Decrease the padding for a more compact look */
-    font-size: 18px; /* Increase the font size for better legibility */
+    font-size: 14px; /* Increase the font size for better legibility */
     color: #333; /* Use a slightly darker color for better contrast */
 }
 
@@ -129,9 +165,28 @@ font-size: 2rem;
 
 #projects{
     height: 700px;
-    background: rgb(245, 245, 245);
+    background: rgb(255, 255, 255);
+    color: black;
 }
 #contact{
     height: 700px;
-    background: rgb(245, 245, 245);
+    background: rgb(248, 248, 248);
+    color: black;
 }
+    @media only screen and (max-width: 920px) {
+        #text {
+            max-width: 100%; /* Adjust for smaller screens */
+        }
+    
+        #logo {
+            margin-top: 10px; /* Adjust margin for smaller screens */
+        }
+    
+        #logo i {
+            font-size: 24px; /* Adjust icon size for smaller screens */
+        }
+    
+        .hometitle {
+            font-size: 1.5rem; /* Adjust font size for smaller screens */
+        }
+    }
