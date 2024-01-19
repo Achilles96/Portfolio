@@ -95,15 +95,21 @@ font-size: 2rem;
 #content{
     
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start; /* Align items at the start of the cross axis (top) */
     flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
 #text{
-   
-   flex: 1;
-   max-width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    line-height: 1.6; /* Adjust the line height for better readability */
+    margin-top: 20px; /* Add some top margin for spacing */
+    padding: 30px; /* Decrease the padding for a more compact look */
+    font-size: 14px; /* Increase the font size for better legibility */
+    color: #333; 
   
 }
 #logo{
@@ -153,7 +159,11 @@ font-size: 2rem;
     margin-top: 0%;
     color: rgb(0, 0, 0);
 }
-.mydream{
+mydream{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
     line-height: 1.6; /* Adjust the line height for better readability */
     margin-top: 20px; /* Add some top margin for spacing */
     padding: 30px; /* Decrease the padding for a more compact look */
