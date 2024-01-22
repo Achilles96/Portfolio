@@ -5,10 +5,10 @@ html{
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(226, 226, 226, 0.5);
     font-size: 14px;
     font-family: 'Rubik', sans-serif;
-    color: aliceblue;
+    color: white;
 }
 /* ____________________________home button____________________________________ */
 .fa-house{
@@ -42,13 +42,13 @@ list-style: none;
 }
 .main-header{
     display: flex;
-    height: 4rem;
+    height: 60px;
     justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
     overflow: hidden;
-    background-color: rgb(8, 5, 7);
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
 /* ____________________Home____________________________________________________________ */
@@ -90,40 +90,37 @@ font-size: 2rem;
     padding: 30px;
     height: auto;
     background: rgb(245, 245, 245);
-    font-family: 'Rubik', sans-serif;
+  
 }
 #content{
     
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start; /* Align items at the start of the cross axis (top) */
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    flex-wrap: nowrap; /* Allow wrapping on smaller screens */
+    flex-direction: row;
 }
 
 #text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: fit-content;
-    line-height: 1.6; /* Adjust the line height for better readability */
-    margin-top: 20px; /* Add some top margin for spacing */
-    padding: 30px; /* Decrease the padding for a more compact look */
-    font-size: 14px; /* Increase the font size for better legibility */
+  
+    width: 30rem;
+    line-height: 1.5; /* Adjust the line height for better readability */
+    margin-right: 20px; /* Add some top margin for spacing */
+    padding: 20px; /* Decrease the padding for a more compact look */
+    font-size: 18px; /* Increase the font size for better legibility */
     color: #333; 
   
 }
 #logo{
-    display: flex;
-    align-items: center; /* Center the logos vertically */
-    justify-content: center; /* Center the logos horizontally */
+    text-align: center;
     max-width: 500px;
-    margin-top:23rem;
-   background-color: rgb(221, 219, 219);
+    margin-top:50px;
+    background-color: none
     
 }
 #logo i {
-    font-size: 36px; /* Set the size of the logos */
-    margin: 10px; /* Add spacing around each logo if needed */
+    font-size: 40px; /* Set the size of the logos */
+    margin: 15px; /* Add spacing around each logo if needed */
 }
 .abouttitle{
     display: flex;
