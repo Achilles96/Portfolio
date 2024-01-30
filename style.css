@@ -5,10 +5,10 @@ html{
 body {
     margin: 0;
     padding: 0;
-    background-color: rgba(226, 226, 226, 0.5);
+    background-color: rgb(0, 0, 0);
     font-size: 14px;
     font-family: 'Rubik', sans-serif;
-    color: white;
+    color: rgb(250, 237, 237);
 }
 /* ____________________________home button____________________________________ */
 .fa-house{
@@ -73,6 +73,7 @@ align-items: center;
 justify-content: center;
 margin: 0;
 font-size: 2rem;
+color: aliceblue;
     
 }
 
@@ -87,9 +88,10 @@ font-size: 2rem;
 /* _____________________________About me__________________________________________ */
 
 #aboutme{
-    padding: 30px;
+    padding: 50px 30px 30px 30px;
     height: auto;
     background: rgb(245, 245, 245);
+    color: #333;
   
 }
 #content{
@@ -99,6 +101,8 @@ font-size: 2rem;
     align-items: flex-start; /* Align items at the start of the cross axis (top) */
     flex-wrap: nowrap; /* Allow wrapping on smaller screens */
     flex-direction: row;
+    padding: 0px 150px 50px 150px;
+    color: #333;
 }
 
 #text{
@@ -114,8 +118,8 @@ font-size: 2rem;
 #logo{
     text-align: center;
     max-width: 500px;
-    margin-top:50px;
-    background-color: none
+    margin-top:180px;
+   
     
 }
 #logo i {
@@ -156,30 +160,69 @@ font-size: 2rem;
     margin-top: 0%;
     color: rgb(0, 0, 0);
 }
-mydream{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: fit-content;
-    line-height: 1.6; /* Adjust the line height for better readability */
-    margin-top: 20px; /* Add some top margin for spacing */
-    padding: 30px; /* Decrease the padding for a more compact look */
-    font-size: 14px; /* Increase the font size for better legibility */
-    color: #333; /* Use a slightly darker color for better contrast */
+
+.skills{
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 
-
+/* _____________________________projects__________________________________________ */
 #projects{
     height: 700px;
     background: rgb(255, 255, 255);
     color: black;
 }
+
+.proh1{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* _____________________________contact__________________________________________ */
+
 #contact{
     height: 700px;
     background: rgb(248, 248, 248);
     color: black;
 }
+
+.conh1{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     @media only screen and (max-width: 920px) {
         #text {
             max-width: 100%; /* Adjust for smaller screens */
