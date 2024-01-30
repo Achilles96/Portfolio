@@ -6,8 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(0, 0, 0);
-    font-size: 14px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: rgb(250, 237, 237);
 }
 /* ____________________________home button____________________________________ */
@@ -78,6 +77,7 @@ color: aliceblue;
 }
 
 .myname{
+    font-family: 'Roboto', sans-serif;
     margin-top: 15rem;
     line-height: 5rem;
     font-size: 2rem;
@@ -106,12 +106,13 @@ color: aliceblue;
 }
 
 #text{
-  
+   
     width: 30rem;
     line-height: 1.5; /* Adjust the line height for better readability */
     margin-right: 20px; /* Add some top margin for spacing */
     padding: 20px; /* Decrease the padding for a more compact look */
     font-size: 18px; /* Increase the font size for better legibility */
+    font-weight: 500;
     color: #333; 
   
 }
@@ -134,7 +135,7 @@ color: aliceblue;
     font-weight: 150;
     margin-bottom: 0%;
     color: rgb(0, 0, 0);
-    font-family: 'Rubik', sans-serif; 
+   
 }
 
 .abouttitle::before,
@@ -161,9 +162,11 @@ color: aliceblue;
     color: rgb(0, 0, 0);
 }
 
+
 .skills{
     text-align: center;
     margin-bottom: 50px;
+    font-size: larger;
 }
 
 
