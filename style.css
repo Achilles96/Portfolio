@@ -101,7 +101,7 @@ color: aliceblue;
     align-items: flex-start; /* Align items at the start of the cross axis (top) */
     flex-wrap: nowrap; /* Allow wrapping on smaller screens */
     flex-direction: row;
-    padding: 0px 170px 50px 0px;
+    padding: 0px 130px 50px 0px;
     color: #333;
 }
 
@@ -131,6 +131,9 @@ color: aliceblue;
     margin: 10px 10px 10px 28px; 
 }
 
+#i{
+    margin : 0px 16px 0px 18px;
+}
 
 
 
