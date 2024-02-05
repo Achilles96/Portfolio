@@ -125,7 +125,7 @@ color: aliceblue;
 }
 #logoi {
     border-radius: 13px;
-    box-shadow: -6px 8px 1px 0px;
+    box-shadow: -6px 8px 8px 2px;
     background-color: transparent;
     font-size: 50px; /* Set the size of the logos */
     margin: 10px 10px 10px 28px; 
@@ -183,7 +183,7 @@ color: aliceblue;
     border-radius: 17px;
     width: 97px;
     margin-bottom: 58px;
-    box-shadow:0 5px 10px rgba(24, 24, 24, 0.733);
+    box-shadow: -6px 8px 8px 2px rgba(24, 24, 24, 0.733);
 }
 
 
