@@ -58,12 +58,14 @@ list-style: none;
 
 .parallax {
     min-height: auto;
-    background: url(space.jpg) center/cover no-repeat;
+    background: url(tianyi-ma-WiONHd_zYI4-unsplash.jpg) center/cover no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
+
 .hometitle{
 display: flex;
 flex-direction: column;
@@ -73,6 +75,7 @@ justify-content: center;
 margin: 0;
 font-size: 2rem;
 color: aliceblue;
+
     
 }
 
