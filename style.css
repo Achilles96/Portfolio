@@ -56,6 +56,7 @@ list-style: none;
 
 #home{
     height: 100vh;
+    
 }
    
 
@@ -76,20 +77,45 @@ list-style: none;
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.2); 
-    z-index: 1; /* Ensure the overlay is below the text */
+    
 }
 
-.hometitle{
-    position: absolute;
-    top: 50%;
+#hometitle{
+    display: flex; /* Use flexbox */
+    flex-direction: row; /* Arrange children vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    position: fixed;
+    top: 24%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2; /* Ensure the text is above the overlay */
-    margin: 0;
-    font-size: 2rem;
+    text-align: center;
     color: aliceblue;
+    width: 100%; /* Ensure text spans the entire width */
+}
+#hometitle p {
+    margin-right: 13px;
+    font-size: 35px;
+}
 
+#hometitle h2 {
+    margin-right: 13px;
+    font-size: 40px;
     
+}
+
+#underLaptop{
+    display: flex; /* Use flexbox */
+    flex-direction: row; /* Arrange children vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
 }
 
 .myname{
@@ -97,17 +123,19 @@ list-style: none;
     margin-top: 15rem;
     line-height: 5rem;
     font-size: 2rem;
-    color: rgb(223, 192, 17);
+    color: rgb(223, 110, 17);
    
 }
 
 /* _____________________________About me__________________________________________ */
 
 #aboutme{
+    position: relative;
     padding: 50px 30px 30px 30px;
     height: auto;
     background: rgb(245, 245, 245);
     color: #333;
+    z-index: 2;
   
 }
 #content{
@@ -206,9 +234,11 @@ list-style: none;
 /* _____________________________projects__________________________________________ */
 
 #projects{
+    position: relative;
     height: 700px;
     background: rgb(255, 255, 255);
     color: black;
+    
 }
 
 .proh1{
@@ -234,10 +264,10 @@ list-style: none;
 
 
 
-
 /* _____________________________contact__________________________________________ */
 
 #contact{
+    position: relative;
     height: 700px;
     background: rgb(248, 248, 248);
     color: black;
