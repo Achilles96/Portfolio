@@ -81,18 +81,12 @@ list-style: none;
 }
 
 #hometitle{
-   z-index: 1;
-    display: flex; /* Use flexbox */
-    flex-direction: row; /* Arrange children vertically */
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
     position: fixed;
-    top: 27%;
+    top: 24%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-94%, -50%);
     text-align: center;
-    color: rgba(240, 248, 255, 0.76);
-    width: 100%; /* Ensure text spans the entire width */
+    color: rgba(255, 255, 255, 0.9);
 }
 #hometitle p {
     margin-right: 30px;
@@ -113,26 +107,18 @@ list-style: none;
     position: fixed;
     top: 65%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-33%, -50%);
     text-align: center;
     color: aliceblue;
     width: 100%;
 }
 
-#underLaptop h3 {
-    color: rgba(255, 255, 255, 0.712);
+#underLaptop h2 {
+    color: rgba(255, 255, 255, 0.9);
     font-size: 50px;
     margin-top: 0px;
 }
 
-.myname{
-    font-family: 'Roboto', sans-serif;
-    margin-top: 15rem;
-    line-height: 5rem;
-    font-size: 2rem;
-    color: rgb(223, 110, 17);
-   
-}
 
 /* _____________________________About me__________________________________________ */
 
@@ -291,31 +277,57 @@ list-style: none;
 
 
 
+/* Add this CSS code to style the circle button */
+.circle-button {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+    background-color: #ff98003d;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    z-index: 1001; /* Ensure it appears above other content */
+}
+
+.circle-button:hover {
+    background-color: #ff980082; /* Change color on hover */
+}
 
 
 
 
-
-
-
-
-
-
-
-    @media only screen and (max-width: 920px) {
-        #text {
-            max-width: 100%; /* Adjust for smaller screens */
-        }
-    
-        #logo {
-            margin-top: 10px; /* Adjust margin for smaller screens */
-        }
-    
-        #logo i {
-            font-size: 24px; /* Adjust icon size for smaller screens */
-        }
-    
-        .hometitle {
-            font-size: 1.5rem; /* Adjust font size for smaller screens */
-        }
+@media only screen and (max-width: 920px) {
+    #content {
+        flex-direction: column; /* Change to a single column layout on smaller screens */
+        padding: 20px; /* Adjust padding for better spacing */
     }
+
+    #hometitle{
+        width: 52%;
+    }
+    #underLaptop{
+        width: 52%
+    }
+
+    #text {
+        width: 100%; /* Allow text to take up full width */
+        padding: 0; /* Reset padding */
+        font-size: 18px; /* Decrease font size for better readability */
+    }
+
+    #logo {
+        width: 85%; /* Allow icons to take up full width */
+        text-align: center; /* Center-align icons */
+        margin-top: 16px; /* Add some space between text and icons */
+    }
+
+    #logoi {
+        margin: 10px auto; /* Center icons horizontally */
+        font-size: 36px; /* Decrease icon size for better fit */
+    }
+}
