@@ -76,7 +76,7 @@ list-style: none;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.4); 
     
 }
 
@@ -95,7 +95,7 @@ list-style: none;
 
 #hometitle h2 {
     margin-right: 30px;
-    font-size: 40px;
+    font-size: 32px;
     
 }
 
@@ -115,7 +115,7 @@ list-style: none;
 
 #underLaptop h2 {
     color: rgba(255, 255, 255, 0.9);
-    font-size: 50px;
+    font-size: 38px;
     margin-top: 0px;
 }
 
@@ -123,15 +123,26 @@ list-style: none;
 /* _____________________________About me__________________________________________ */
 
 #aboutme{
-    background-image: url(triangles2.jpg); 
-    background-size: cover; 
-    background-position: center; /* Center the background image */
     position: relative; /* Ensure position is relative for positioning child elements */
-    height: 100vh; /* Adjust height as needed */
+    height: auto; /* Adjust height as needed */
     color: #333;
     background-color: rgb(255, 255, 255);
     z-index: 2;
 
+}
+#aboutme::before{
+    content:"";
+    height: auto;
+    opacity: 0.5;
+    background-image: url(triangles2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 
@@ -231,7 +242,7 @@ list-style: none;
 
 #projects{
     position: relative;
-    height: 700px;
+    height: auto;
     background: rgb(255, 255, 255);
     color: black;
     z-index: 2;
@@ -265,7 +276,7 @@ list-style: none;
 
 #contact{
     position: relative;
-    height: 700px;
+    height: auto;
     background: rgb(248, 248, 248);
     color: black;
     z-index: 2;
