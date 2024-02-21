@@ -89,14 +89,21 @@ list-style: none;
     color: rgba(255, 255, 255, 0.9);
 }
 #hometitle p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.4;
+    letter-spacing: 1px;
     margin-right: 30px;
     font-size: 22px;
 }
 
 #hometitle h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 25px;
     margin-right: 30px;
     font-size: 32px;
-    
+    letter-spacing: 4px; 
 }
 
 #underLaptop{
@@ -114,8 +121,10 @@ list-style: none;
 }
 
 #underLaptop h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
     color: rgba(255, 255, 255, 0.9);
-    font-size: 38px;
+    font-size: 35px;
     margin-top: 0px;
 }
 
@@ -133,7 +142,6 @@ list-style: none;
 #aboutme::before{
     content:"";
     height: auto;
-    opacity: 0.5;
     background-image: url(triangles2.jpg);
     background-size: cover;
     background-position: center;
@@ -154,15 +162,20 @@ list-style: none;
     align-items: flex-start; /* Align items at the start of the cross axis (top) */
     flex-wrap: nowrap; /* Allow wrapping on smaller screens */
     flex-direction: row;
-    padding: 0px 130px 50px 0px; 
+    padding: 0px 130px 50px 38px; 
 }
 
 #text{
-   
+    border: 8px ridge rgba(255, 255, 255, 0.8);
+    border-radius: 52px;
+    background: linear-gradient(301deg, rgba(0,0,0,0.2), rgba(255, 255, 255, 0.3)); /* gradiant color */
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.2), /* White shadow on top left */
+    5px 5px 10px rgba(153, 153, 153, 0.5);
     width: 38rem;
     line-height: 1.5; /* Adjust the line height for better readability */
+    letter-spacing: 0.2px;
     margin:auto; /* Add some margin for spacing */
-    padding: 88px 0px 20px 20px ; /* Decrease the padding for a more compact look */
+    padding: 45px 40px 45px 40px ; /* Decrease the padding for a more compact look */
     font-size: 20px; /* Increase the font size for better legibility */
     font-weight: 500;
 }
@@ -176,7 +189,7 @@ list-style: none;
 #logoi {
     border-radius: 13px;
     box-shadow: -6px 8px 8px 2px;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.8);
     font-size: 58px; /* Set the size of the logos */
     margin: 10px 10px 10px 28px; 
 }
@@ -230,7 +243,7 @@ list-style: none;
     margin: auto;
     font-size: 34px;
     font-weight: 600;
-    background-color: rgba(138, 135, 135, 0.404);
+    background-color: rgba(138, 135, 135, 0.5);
     border-radius: 24px;
     width: 120px;
     margin-bottom: 58px;
@@ -326,8 +339,8 @@ list-style: none;
     }
 
     #text {
-        width: 100%; /* Allow text to take up full width */
-        padding: 0; /* Reset padding */
+        width: 90%; /* Allow text to take up full width */
+        padding: 5px; /* Reset padding */
         font-size: 18px; /* Decrease font size for better readability */
     }
 
@@ -339,6 +352,11 @@ list-style: none;
 
     #logoi {
         margin: 10px auto; /* Center icons horizontally */
-        font-size: 36px; /* Decrease icon size for better fit */
+        font-size: 45px; /* Decrease icon size for better fit */
+    }
+
+    #skills{
+        width: 40%;
+        margin-top: 80px;
     }
 }
