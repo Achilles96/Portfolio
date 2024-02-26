@@ -162,40 +162,45 @@ list-style: none;
     align-items: flex-start; /* Align items at the start of the cross axis (top) */
     flex-wrap: nowrap; /* Allow wrapping on smaller screens */
     flex-direction: row;
-    padding: 0px 130px 50px 38px; 
+    padding: 0px 0px 90px 0px; 
 }
 
 #text{
-    border: 8px ridge rgba(255, 255, 255, 0.8);
+    border: 5px ridge rgba(255, 255, 255, 0.8);
     border-radius: 52px;
     background: linear-gradient(301deg, rgba(0,0,0,0.2), rgba(255, 255, 255, 0.3)); /* gradiant color */
     box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.2), /* White shadow on top left */
     5px 5px 10px rgba(153, 153, 153, 0.5);
-    width: 38rem;
+    width: 40rem;
     line-height: 1.5; /* Adjust the line height for better readability */
     letter-spacing: 0.2px;
-    margin:auto; /* Add some margin for spacing */
+    margin:auto 60px; /* Add some margin for spacing */
     padding: 45px 40px 45px 40px ; /* Decrease the padding for a more compact look */
     font-size: 20px; /* Increase the font size for better legibility */
     font-weight: 500;
 }
 #logo{
+    /* border: 6px ridge rgba(255, 255, 255, 0.8);
+    border-radius: 52px;
+    background: linear-gradient(30deg, rgba(0,0,0,0.2), rgba(255, 255, 255, 0.3)); 
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.2), 
+    5px 5px 10px rgba(153, 153, 153, 0.5);  */
+    width: 38rem;
     text-align: center;
-    max-width: 500px;
-    margin: auto;
+    margin: auto 60px;
    
     
 }
 #logoi {
-    border-radius: 13px;
-    box-shadow: -6px 8px 8px 2px;
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 58px; /* Set the size of the logos */
+    border-radius: 40px;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.2)
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 54px; /* Set the size of the logos */
     margin: 10px 10px 10px 28px; 
 }
 
 #i{
-    margin : 0px 16px 0px 18px;
+    margin : 0px 75px 0px 75px;
 }
 
 
@@ -239,15 +244,17 @@ list-style: none;
 
 
 #skills{
+    border: 5px ridge rgba(255, 255, 255, 0.8);
+    border-radius: 52px;
+    background: linear-gradient(30deg, rgba(0,0,0,0.2), rgba(255, 255, 255, 0.3)); /* gradiant color */
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.2), /* White shadow on top left */
+    5px 5px 10px rgba(153, 153, 153, 0.5); /* black shadow on bottom right */
     line-height: 2;
     margin: auto;
     font-size: 34px;
     font-weight: 600;
-    background-color: rgba(138, 135, 135, 0.5);
-    border-radius: 24px;
     width: 120px;
     margin-bottom: 58px;
-    box-shadow: -6px 8px 8px 2px rgba(24, 24, 24, 0.733);
 }
 
 
@@ -325,7 +332,7 @@ list-style: none;
 
 
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 1023px) {
     #content {
         flex-direction: column; /* Change to a single column layout on smaller screens */
         padding: 20px; /* Adjust padding for better spacing */
@@ -340,12 +347,15 @@ list-style: none;
 
     #text {
         width: 90%; /* Allow text to take up full width */
-        padding: 5px; /* Reset padding */
+        padding: 18px; /* Reset padding */
         font-size: 18px; /* Decrease font size for better readability */
+        margin: auto;
     }
 
     #logo {
-        width: 85%; /* Allow icons to take up full width */
+        padding: 8px;
+        margin: auto;
+        width: 94%; /* Allow icons to take up full width */
         text-align: center; /* Center-align icons */
         margin-top: 16px; /* Add some space between text and icons */
     }
@@ -356,6 +366,7 @@ list-style: none;
     }
 
     #skills{
+        
         width: 40%;
         margin-top: 80px;
     }
