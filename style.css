@@ -130,16 +130,13 @@ list-style: none;
 
 
 /* _____________________________About me__________________________________________ */
-@keyframes fade-in {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
+
 
 #aboutme{
     position: relative; /* Ensure position is relative for positioning child elements */
     height: auto; /* Adjust height as needed */
     color: #333;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255);
     z-index: 2;
 
 }
@@ -155,6 +152,7 @@ list-style: none;
     right: 0;
     bottom: 0;
     z-index: -1;
+    filter: brightness(90%);
 }
 
 
@@ -191,7 +189,7 @@ list-style: none;
     5px 5px 10px rgba(153, 153, 153, 0.5);  */
     width: 38rem;
     text-align: center;
-    margin: 80px 50px;    
+    margin: 100px 50px;    
 }
 
 #logoi {
@@ -325,24 +323,29 @@ list-style: none;
 
 
 /* Add this CSS code to style the circle button */
-.circle-button {
+.btn {
     position: fixed;
-    bottom: 20px; /* Adjust the distance from the bottom as needed */
-    right: 20px; /* Adjust the distance from the right as needed */
-    background-color: #ff98003d;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    bottom: 15px; /* Adjust the distance from the bottom as needed */
+    right: 15px; /* Adjust the distance from the right as needed */
+    background-color: #ffffff;
+    color: #1d0404;
+    width: 90px;
+    height: 50px;
+    border-radius: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    font-size: 13px;
+    border: 3px ridge rgba(129, 116, 116);
     z-index: 1001; /* Ensure it appears above other content */
 }
 
-.circle-button:hover {
-    background-color: #ff980082; /* Change color on hover */
+.btn:hover {
+    width: 100px;
+    height: 55px;
+    border: 3,5px ridge rgba(129, 116, 116);
+    background-color: rgb(231, 231, 231);
 }
 
 
