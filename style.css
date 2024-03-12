@@ -5,7 +5,7 @@ html{
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(247, 214, 214);
     font-family: 'Roboto', sans-serif;
     color: rgb(250, 237, 237);
 }
@@ -287,6 +287,10 @@ list-style: none;
     margin: 0;
 }
 
+.test{
+    margin: 0;
+}
+
 
 
 
@@ -310,14 +314,33 @@ list-style: none;
 
 #contact{
     position: relative;
+    padding: 38px;
     height: auto;
-    background: rgb(248, 248, 248);
-    color: black;
+    background: rgb(56, 56, 56);
+    color: rgb(255, 255, 255);
     z-index: 2;
+}
+#contact ul{
+    display: flex;
+margin: 0;
+padding: 10px;
+list-style: none;
+text-decoration: none;
+}
+#contact a{
+    padding: 1rem;
+    color: #ffffff;
 }
 
 .conh1{
+    margin: 10px 0px 0px 0px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.conh3{
     margin: 0;
+    font-size: 60px;
 }
 
 
