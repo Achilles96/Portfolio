@@ -324,11 +324,12 @@ list-style: none;
 display: flex;
 flex-direction: row-reverse;
 margin: 0;
-padding: 24px;
+padding: 15px;
 list-style: none;
 
 }
 #contact a{
+    text-decoration: none;
     padding: 1rem;
     color: #ffffff;
 }
@@ -337,7 +338,6 @@ list-style: none;
     margin: 10px 0px 0px 0px;
     font-size: 15px;
     margin-bottom: 10px;
-    text-decoration: none;
 }
 
 .conh3{
@@ -429,5 +429,18 @@ list-style: none;
     }
     #ii{
         margin-left: 85px;
+    }
+
+    .conh1{font-size: 14px;
+        margin-left: 72px;
+    }
+
+    .conh3{
+        font-size: 60px;
+        margin-left: 50px;
+    }
+
+    #contact ul{
+        width: 280px;
     }
 }
