@@ -321,11 +321,12 @@ list-style: none;
     z-index: 2;
 }
 #contact ul{
-    display: flex;
+display: flex;
+flex-direction: row-reverse;
 margin: 0;
-padding: 10px;
+padding: 24px;
 list-style: none;
-text-decoration: none;
+
 }
 #contact a{
     padding: 1rem;
@@ -336,11 +337,12 @@ text-decoration: none;
     margin: 10px 0px 0px 0px;
     font-size: 15px;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .conh3{
-    margin: 0;
-    font-size: 60px;
+    margin: -8px 10px 10px 30px;
+    font-size: 80px;
 }
 
 
